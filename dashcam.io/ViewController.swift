@@ -6,6 +6,16 @@
 //  Copyright © 2017 Farhan Rahman. All rights reserved.
 //
 
+
+/*
+ 
+ Todo
+ 
+ 1) Show the camera on the iphone.
+ 
+ 2) After that build the correct thing for us and change 
+ 
+ */
 import UIKit
 
 class ViewController: UIViewController {
