@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CDA868C8ACDA847A3C3103E /* Pods_dashcam_ioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70871E0CED2EF82727F52DC7 /* Pods_dashcam_ioTests.framework */; };
+		9C0226191FBB494B00569C30 /* allvideos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0226181FBB494B00569C30 /* allvideos.swift */; };
+		9C02261B1FBB53A300569C30 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C02261A1FBB53A300569C30 /* SettingsVC.swift */; };
+		9C02261D1FBB627200569C30 /* LoginRegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C02261C1FBB627200569C30 /* LoginRegisterVC.swift */; };
+		9C02261F1FBB628500569C30 /* LoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C02261E1FBB628500569C30 /* LoadingVC.swift */; };
 		9C72D9481FBA0B5F00EFD34A /* MainAppVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C72D9471FBA0B5F00EFD34A /* MainAppVC.swift */; };
+		9C72D94A1FBB3D4800EFD34A /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C72D9491FBB3D4800EFD34A /* ProfileVC.swift */; };
+		9C72D94C1FBB403300EFD34A /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C72D94B1FBB403300EFD34A /* CameraVC.swift */; };
+		9C72D94F1FBB477300EFD34A /* profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C72D94E1FBB477300EFD34A /* profile.swift */; };
 		9CC3D0C01FB6DBC00001D004 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC3D0BF1FB6DBC00001D004 /* AppDelegate.swift */; };
-		9CC3D0C21FB6DBC00001D004 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC3D0C11FB6DBC00001D004 /* ViewController.swift */; };
+		9CC3D0C21FB6DBC00001D004 /* AllVideosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC3D0C11FB6DBC00001D004 /* AllVideosVC.swift */; };
 		9CC3D0C51FB6DBC10001D004 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC3D0C31FB6DBC10001D004 /* Main.storyboard */; };
 		9CC3D0C71FB6DBC10001D004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CC3D0C61FB6DBC10001D004 /* Assets.xcassets */; };
 		9CC3D0CA1FB6DBC10001D004 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC3D0C81FB6DBC10001D004 /* LaunchScreen.storyboard */; };
 		9CC3D0D51FB6DBC10001D004 /* dashcam_ioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC3D0D41FB6DBC10001D004 /* dashcam_ioTests.swift */; };
+		9CD106AC1FC339F0007DF4A3 /* ActiveVideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD106AB1FC339F0007DF4A3 /* ActiveVideoVC.swift */; };
+		9CD106B01FC48F1F007DF4A3 /* apiSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD106AF1FC48F1F007DF4A3 /* apiSettings.swift */; };
+		9CF5AD491FBF5E4A0055E149 /* tokenSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF5AD481FBF5E4A0055E149 /* tokenSettings.swift */; };
+		ABA92105A03E2FB8C194C592 /* Pods_dashcam_io.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1371622D4644E8C233FA18 /* Pods_dashcam_io.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +39,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37D8610DA816B4DC4AE433A3 /* Pods-dashcam.io.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dashcam.io.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dashcam.io/Pods-dashcam.io.debug.xcconfig"; sourceTree = "<group>"; };
+		70871E0CED2EF82727F52DC7 /* Pods_dashcam_ioTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dashcam_ioTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81D8D99D5DBE91EAFB602646 /* Pods-dashcam.ioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dashcam.ioTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dashcam.ioTests/Pods-dashcam.ioTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C0226181FBB494B00569C30 /* allvideos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allvideos.swift; sourceTree = "<group>"; };
+		9C02261A1FBB53A300569C30 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		9C02261C1FBB627200569C30 /* LoginRegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRegisterVC.swift; sourceTree = "<group>"; };
+		9C02261E1FBB628500569C30 /* LoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingVC.swift; sourceTree = "<group>"; };
 		9C72D9471FBA0B5F00EFD34A /* MainAppVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppVC.swift; sourceTree = "<group>"; };
+		9C72D9491FBB3D4800EFD34A /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		9C72D94B1FBB403300EFD34A /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
+		9C72D94E1FBB477300EFD34A /* profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profile.swift; sourceTree = "<group>"; };
 		9CC3D0BC1FB6DBC00001D004 /* dashcam.io.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dashcam.io.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CC3D0BF1FB6DBC00001D004 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9CC3D0C11FB6DBC00001D004 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9CC3D0C11FB6DBC00001D004 /* AllVideosVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllVideosVC.swift; sourceTree = "<group>"; };
 		9CC3D0C41FB6DBC10001D004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CC3D0C61FB6DBC10001D004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CC3D0C91FB6DBC10001D004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +60,12 @@
 		9CC3D0D01FB6DBC10001D004 /* dashcam.ioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dashcam.ioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CC3D0D41FB6DBC10001D004 /* dashcam_ioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dashcam_ioTests.swift; sourceTree = "<group>"; };
 		9CC3D0D61FB6DBC10001D004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CD106AB1FC339F0007DF4A3 /* ActiveVideoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveVideoVC.swift; sourceTree = "<group>"; };
+		9CD106AF1FC48F1F007DF4A3 /* apiSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiSettings.swift; sourceTree = "<group>"; };
+		9CF5AD481FBF5E4A0055E149 /* tokenSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tokenSettings.swift; sourceTree = "<group>"; };
+		A7ADC837707D04173C13864A /* Pods-dashcam.io.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dashcam.io.release.xcconfig"; path = "Pods/Target Support Files/Pods-dashcam.io/Pods-dashcam.io.release.xcconfig"; sourceTree = "<group>"; };
+		DE1371622D4644E8C233FA18 /* Pods_dashcam_io.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dashcam_io.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F983AB0B65D966C0C90E7CA5 /* Pods-dashcam.ioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dashcam.ioTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-dashcam.ioTests/Pods-dashcam.ioTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABA92105A03E2FB8C194C592 /* Pods_dashcam_io.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +81,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CDA868C8ACDA847A3C3103E /* Pods_dashcam_ioTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77A54EF4B6BFCF270020FE79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE1371622D4644E8C233FA18 /* Pods_dashcam_io.framework */,
+				70871E0CED2EF82727F52DC7 /* Pods_dashcam_ioTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C72D94D1FBB475C00EFD34A /* dummy_data */ = {
+			isa = PBXGroup;
+			children = (
+				9C72D94E1FBB477300EFD34A /* profile.swift */,
+				9C0226181FBB494B00569C30 /* allvideos.swift */,
+			);
+			path = dummy_data;
+			sourceTree = "<group>";
+		};
 		9CC3D0B31FB6DBC00001D004 = {
 			isa = PBXGroup;
 			children = (
+				9CF5AD471FBF5E360055E149 /* Utils */,
+				9C72D94D1FBB475C00EFD34A /* dummy_data */,
 				9CC3D0BE1FB6DBC00001D004 /* dashcam.io */,
 				9CC3D0D31FB6DBC10001D004 /* dashcam.ioTests */,
 				9CC3D0BD1FB6DBC00001D004 /* Products */,
+				CE66FB265DEC28560E9F39F5 /* Pods */,
+				77A54EF4B6BFCF270020FE79 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,7 +133,13 @@
 			children = (
 				9CC3D0BF1FB6DBC00001D004 /* AppDelegate.swift */,
 				9C72D9471FBA0B5F00EFD34A /* MainAppVC.swift */,
-				9CC3D0C11FB6DBC00001D004 /* ViewController.swift */,
+				9CC3D0C11FB6DBC00001D004 /* AllVideosVC.swift */,
+				9C72D9491FBB3D4800EFD34A /* ProfileVC.swift */,
+				9C72D94B1FBB403300EFD34A /* CameraVC.swift */,
+				9C02261A1FBB53A300569C30 /* SettingsVC.swift */,
+				9C02261C1FBB627200569C30 /* LoginRegisterVC.swift */,
+				9C02261E1FBB628500569C30 /* LoadingVC.swift */,
+				9CD106AB1FC339F0007DF4A3 /* ActiveVideoVC.swift */,
 				9CC3D0C31FB6DBC10001D004 /* Main.storyboard */,
 				9CC3D0C61FB6DBC10001D004 /* Assets.xcassets */,
 				9CC3D0C81FB6DBC10001D004 /* LaunchScreen.storyboard */,
@@ -99,6 +157,26 @@
 			path = dashcam.ioTests;
 			sourceTree = "<group>";
 		};
+		9CF5AD471FBF5E360055E149 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9CF5AD481FBF5E4A0055E149 /* tokenSettings.swift */,
+				9CD106AF1FC48F1F007DF4A3 /* apiSettings.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CE66FB265DEC28560E9F39F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37D8610DA816B4DC4AE433A3 /* Pods-dashcam.io.debug.xcconfig */,
+				A7ADC837707D04173C13864A /* Pods-dashcam.io.release.xcconfig */,
+				81D8D99D5DBE91EAFB602646 /* Pods-dashcam.ioTests.debug.xcconfig */,
+				F983AB0B65D966C0C90E7CA5 /* Pods-dashcam.ioTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CC3D0D91FB6DBC10001D004 /* Build configuration list for PBXNativeTarget "dashcam.io" */;
 			buildPhases = (
+				16A69F40F4850D52E6A8C86C /* [CP] Check Pods Manifest.lock */,
 				9CC3D0B81FB6DBC00001D004 /* Sources */,
 				9CC3D0B91FB6DBC00001D004 /* Frameworks */,
 				9CC3D0BA1FB6DBC00001D004 /* Resources */,
+				78469AA715F0189748A558DF /* [CP] Embed Pods Frameworks */,
+				2E81695CA195E40BF5D391B4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CC3D0DC1FB6DBC10001D004 /* Build configuration list for PBXNativeTarget "dashcam.ioTests" */;
 			buildPhases = (
+				03A3BECDE018D1C65316B113 /* [CP] Check Pods Manifest.lock */,
 				9CC3D0CC1FB6DBC10001D004 /* Sources */,
 				9CC3D0CD1FB6DBC10001D004 /* Frameworks */,
 				9CC3D0CE1FB6DBC10001D004 /* Resources */,
+				662362558CAA3462C7572DF6 /* [CP] Embed Pods Frameworks */,
+				F4EA5357EA507BC78AA2CAAA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,14 +281,130 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03A3BECDE018D1C65316B113 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dashcam.ioTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		16A69F40F4850D52E6A8C86C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dashcam.io-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E81695CA195E40BF5D391B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dashcam.io/Pods-dashcam.io-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		662362558CAA3462C7572DF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dashcam.ioTests/Pods-dashcam.ioTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78469AA715F0189748A558DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-dashcam.io/Pods-dashcam.io-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/ZFRippleButton/ZFRippleButton.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZFRippleButton.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dashcam.io/Pods-dashcam.io-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4EA5357EA507BC78AA2CAAA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dashcam.ioTests/Pods-dashcam.ioTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9CC3D0B81FB6DBC00001D004 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CC3D0C21FB6DBC00001D004 /* ViewController.swift in Sources */,
+				9C72D94A1FBB3D4800EFD34A /* ProfileVC.swift in Sources */,
+				9CC3D0C21FB6DBC00001D004 /* AllVideosVC.swift in Sources */,
+				9C02261D1FBB627200569C30 /* LoginRegisterVC.swift in Sources */,
+				9CF5AD491FBF5E4A0055E149 /* tokenSettings.swift in Sources */,
+				9C72D94C1FBB403300EFD34A /* CameraVC.swift in Sources */,
+				9C72D94F1FBB477300EFD34A /* profile.swift in Sources */,
 				9C72D9481FBA0B5F00EFD34A /* MainAppVC.swift in Sources */,
+				9C02261B1FBB53A300569C30 /* SettingsVC.swift in Sources */,
+				9C0226191FBB494B00569C30 /* allvideos.swift in Sources */,
+				9CD106B01FC48F1F007DF4A3 /* apiSettings.swift in Sources */,
 				9CC3D0C01FB6DBC00001D004 /* AppDelegate.swift in Sources */,
+				9CD106AC1FC339F0007DF4A3 /* ActiveVideoVC.swift in Sources */,
+				9C02261F1FBB628500569C30 /* LoadingVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,11 +555,13 @@
 		};
 		9CC3D0DA1FB6DBC10001D004 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37D8610DA816B4DC4AE433A3 /* Pods-dashcam.io.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7979X6HKG4;
 				INFOPLIST_FILE = dashcam.io/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.dashcam-io";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -370,11 +572,13 @@
 		};
 		9CC3D0DB1FB6DBC10001D004 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7ADC837707D04173C13864A /* Pods-dashcam.io.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7979X6HKG4;
 				INFOPLIST_FILE = dashcam.io/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.dashcam-io";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -385,6 +589,7 @@
 		};
 		9CC3D0DD1FB6DBC10001D004 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81D8D99D5DBE91EAFB602646 /* Pods-dashcam.ioTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -402,6 +607,7 @@
 		};
 		9CC3D0DE1FB6DBC10001D004 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F983AB0B65D966C0C90E7CA5 /* Pods-dashcam.ioTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

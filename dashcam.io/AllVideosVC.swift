@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  AllVideos.swift
 //  dashcam.io
 //
 //  Created by Farhan Rahman on 11/11/17.
@@ -18,7 +18,7 @@
  */
 import UIKit
 
-class ViewController: UIViewController {
+class AllVideosVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

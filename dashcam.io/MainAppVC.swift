@@ -63,7 +63,8 @@ class MainAppVC: UIViewController {
         
         //Make the previous button deselected.
         buttons[previousIndex].isSelected = false
-
+        
+        
         // Get the previous View Controller.
         let previousVC = allVCs[previousIndex]
         
@@ -74,6 +75,10 @@ class MainAppVC: UIViewController {
         
         //Make the current button selected true.
         sender.isSelected = true
+        buttons[0].layer.opacity = 1.0
+        buttons[1].layer.opacity = 1.0
+        buttons[2].layer.opacity = 1.0
+        sender.layer.opacity = 0.3
         
         //Get the new view controller.
         let currentVC = allVCs[selectedIndex]
@@ -89,6 +94,7 @@ class MainAppVC: UIViewController {
         
     }
     
+
  
 
 }
